@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* .timer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: white;
+  padding: 10px;
+} */
+
+.glass {
+  background: rgba(255, 255, 255, 0.2);
+  /* box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); */
+  backdrop-filter: blur(5.5px);
+  -webkit-backdrop-filter: blur(5.5px);
+  border-radius: 10px;
+  /* border: 1px solid rgba(255, 255, 255, 0.18); */
+  color: white;
+}
+
+#time-manager {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  margin: 5px;
+  padding: 5px;
+}
+
+#focus-manager {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  width: 10vw;
+  margin: 5px;
+  padding: 5px;
+}
+
+#focus-manager li div{
+  margin-top: 3px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#time-controller {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#time-controller>span {
+  margin: 4px;
+}
+
+.arrow-right {
+  width: 12px;
+  height: 18px;
+  margin: 2px;
+  fill: #6c6c6c;
+  cursor: pointer;
+  margin-right: 3px;
+}
+
+.arrow-right:hover {
+  fill: white;
+}
+
+.activated {
+  fill: #13b915;
+}
+
+#timer-output {
+  display: block;
+  text-align: center;
+}
