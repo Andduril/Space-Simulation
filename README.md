@@ -1,7 +1,5 @@
 # Space Simulation
 
-![Project Banner](images/banner.png)
-
 Space Simulation is a TypeScript project that simulates the Earth-Moon system using the Three.js library. It provides a visually appealing and interactive representation of the celestial bodies.
 
 ## Features
@@ -16,7 +14,7 @@ Space Simulation is a TypeScript project that simulates the Earth-Moon system us
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/space-simulation.git
+   git clone https://github.com/Andduril/space-simulation.git
    ```
 
 2. Navigate to the project directory:
@@ -28,7 +26,7 @@ Space Simulation is a TypeScript project that simulates the Earth-Moon system us
 3. Install the dependencies:
 
    ```bash
-   npm install
+   yarn install
    ```
 
 ## Usage
@@ -36,10 +34,10 @@ Space Simulation is a TypeScript project that simulates the Earth-Moon system us
 To run the simulation, execute the following command:
 
 ```bash
-npm start
+yarn dev
 ```
 
-This will launch the application in your default browser. You can then interact with the simulation using your mouse and keyboard controls.
+This will launch the application in your default browser. You can then interact with the simulation using your mouse.
 
 ## Screenshots
 
@@ -55,7 +53,3 @@ Check out the following animated GIF to see the Space Simulation in action:
 ## Contributing
 
 Contributions are welcome! If you have any ideas, suggestions, or bug reports, please create an issue or submit a pull request.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
